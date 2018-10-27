@@ -3,6 +3,8 @@ for details on configuring this project to bundle and minify static web assets. 
 body {
     padding-top: 50px;
     padding-bottom: 20px;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-weight: 400;
 }
 
 /* Wrapping element */
@@ -35,3 +37,46 @@ body {
         display: none;
     }
 }
+
+/* Header styling  start*/
+img#logo{
+    margin-bottom: 10px;
+}
+
+a#link-brand.navbar-brand{
+    margin-left:15px;
+}
+
+a#login.top-menu-login {
+    background-color: rgb(68, 68, 68);
+    border-left: 1px solid #575757;
+    text-transform:uppercase;
+    color:white;
+}
+
+    a#login.top-menu-login:hover {
+        color: #f1a41a;
+    }
+
+a#register.top-menu-register {
+    background-color: rgb(68, 68, 68);
+    border-left: 1px solid #575757;
+    text-transform: uppercase;
+    color: white;
+}
+
+    a#register.top-menu-register:hover {
+        color: #f1a41a;
+    }
+
+a#postavi-oglas.top-menu-postavioglas {
+    border-left: 1px solid #575757;
+    background: linear-gradient(to bottom, #00a8e6 0, #00a8e6 70%, #1a8bbb 99%);
+    color: white;
+}
+
+    a#postavi-oglas.top-menu-postavioglas:hover {
+        cursor: pointer;
+    }
+
+/* Header styling  end*/
